@@ -38,7 +38,7 @@
       "type": "AmService",
       "config": {
           "url": "http://openam",
-          "realm": "/am",
+          "realm": "/",
           "agent": {
               "username": "ig-agent",
               "password": "password"
