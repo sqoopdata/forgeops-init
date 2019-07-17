@@ -9,7 +9,7 @@
             "name": "router-pod",
             "type": "Router",
             "config": {
-              "scanInterval": "disabled",
+              "scanInterval": "enabled",
               "directory": "${openig.configDirectory}/routes-pod"
             }
           }
@@ -20,7 +20,7 @@
             "name": "router-service",
             "type": "Router",
             "config": {
-              "scanInterval": "disabled",
+              "scanInterval": "enabled",
               "directory": "${openig.configDirectory}/routes-service"
             }
           }
