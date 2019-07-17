@@ -24,6 +24,15 @@
               "directory": "${openig.configDirectory}/routes-service"
             }
           }
+        },
+        {
+          "condition": "${matches(request.uri.path, '^/openidm')}",
+          "handler": {
+            "name": "_router",
+            "type": "Router",
+            "baseURI: "http://openidm",
+            "capture": "all"
+          }
         }
       ]
     }
