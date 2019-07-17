@@ -30,7 +30,7 @@
           "handler": {
             "name": "_router",
             "type": "Router",
-            "baseURI: "http://openidm",
+            "baseURI": "http://openidm",
             "capture": "all"
           }
         }
